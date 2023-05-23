@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>web-speech-api</title>
+        <script src="index.js" defer></script>
+    </head>
+    <body style="font-family: Ubuntu; box-sizing: border-box; margin: 0; padding: 0">
+        <main
+            style="
+                min-height: 100vh;
+                width: 100%;
+                background-color: #fdcedf;
+                display: grid;
+                place-items: center;
+            ">
+            <div
+                style="
+                    display: grid;
+                    place-items: center;
+                    gap: 1em;
+                    padding: 8em;
+                    border: 1px solid #f9f5f6;
+                    border-radius: 1em;
+                ">
+                <textarea
+                    style="resize: none; min-height: 8em; min-inline-size: 320px"
+                    class="text-transcription"
+                    disabled
+                    placeholder="..."></textarea>
+                <p style="font-weight: bold; font-size: 1.2rem" class="captation-status">
+                    Speak something
+                </p>
+            </div>
+        </main>
+    </body>
+</html>
